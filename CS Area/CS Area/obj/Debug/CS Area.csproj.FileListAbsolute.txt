@@ -1,0 +1,21 @@
+c:\users\dell\documents\visual studio 2013\Projects\CS Area\CS Area\bin\Debug\CS Area.exe.config
+c:\users\dell\documents\visual studio 2013\Projects\CS Area\CS Area\bin\Debug\CS Area.exe
+c:\users\dell\documents\visual studio 2013\Projects\CS Area\CS Area\bin\Debug\CS Area.pdb
+c:\users\dell\documents\visual studio 2013\Projects\CS Area\CS Area\obj\Debug\CS Area.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2013\Projects\CS Area\CS Area\obj\Debug\CS_Area.Form1.resources
+c:\users\dell\documents\visual studio 2013\Projects\CS Area\CS Area\obj\Debug\CS_Area.Properties.Resources.resources
+c:\users\dell\documents\visual studio 2013\Projects\CS Area\CS Area\obj\Debug\CS Area.csproj.GenerateResource.Cache
+c:\users\dell\documents\visual studio 2013\Projects\CS Area\CS Area\obj\Debug\CS Area.exe
+c:\users\dell\documents\visual studio 2013\Projects\CS Area\CS Area\obj\Debug\CS Area.pdb
+C:\PDDCA C#\CS Area\CS Area\bin\Debug\CS Area.exe.config
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS Area.exe
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS Area.pdb
+C:\PDDCA C#\CS Area\CS Area\bin\Debug\CS Area.exe
+C:\PDDCA C#\CS Area\CS Area\bin\Debug\CS Area.pdb
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS Area.csprojResolveAssemblyReference.cache
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.Form1.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.FindGrade.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.Properties.Resources.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS Area.csproj.GenerateResource.Cache
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.Using_Radio_Button.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.Using_ComboBox_and_ListBox.resources

@@ -1,0 +1,12 @@
+c:\users\dell\documents\visual studio 2013\Projects\WidthAndHeightArea\WidthAndHeightArea\bin\Debug\WidthAndHeightArea.exe.config
+c:\users\dell\documents\visual studio 2013\Projects\WidthAndHeightArea\WidthAndHeightArea\obj\Debug\WidthAndHeightArea.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2013\Projects\WidthAndHeightArea\WidthAndHeightArea\obj\Debug\WidthAndHeightArea.Form1.resources
+c:\users\dell\documents\visual studio 2013\Projects\WidthAndHeightArea\WidthAndHeightArea\obj\Debug\WidthAndHeightArea.Properties.Resources.resources
+c:\users\dell\documents\visual studio 2013\Projects\WidthAndHeightArea\WidthAndHeightArea\obj\Debug\WidthAndHeightArea.csproj.GenerateResource.Cache
+c:\users\dell\documents\visual studio 2013\Projects\WidthAndHeightArea\WidthAndHeightArea\bin\Debug\WidthAndHeightArea.exe
+c:\users\dell\documents\visual studio 2013\Projects\WidthAndHeightArea\WidthAndHeightArea\bin\Debug\WidthAndHeightArea.pdb
+c:\users\dell\documents\visual studio 2013\Projects\WidthAndHeightArea\WidthAndHeightArea\obj\Debug\WidthAndHeightArea.exe
+c:\users\dell\documents\visual studio 2013\Projects\WidthAndHeightArea\WidthAndHeightArea\obj\Debug\WidthAndHeightArea.pdb
+C:\PDDCA C#\WidthAndHeightArea\WidthAndHeightArea\bin\Debug\WidthAndHeightArea.exe.config
+C:\PDDCA C#\WidthAndHeightArea\WidthAndHeightArea\obj\Debug\WidthAndHeightArea.exe
+C:\PDDCA C#\WidthAndHeightArea\WidthAndHeightArea\obj\Debug\WidthAndHeightArea.pdb

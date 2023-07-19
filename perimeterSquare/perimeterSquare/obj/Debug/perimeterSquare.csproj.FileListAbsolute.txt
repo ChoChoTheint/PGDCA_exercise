@@ -1,0 +1,9 @@
+c:\users\dell\documents\visual studio 2013\Projects\perimeterSquare\perimeterSquare\bin\Debug\perimeterSquare.exe.config
+c:\users\dell\documents\visual studio 2013\Projects\perimeterSquare\perimeterSquare\bin\Debug\perimeterSquare.exe
+c:\users\dell\documents\visual studio 2013\Projects\perimeterSquare\perimeterSquare\bin\Debug\perimeterSquare.pdb
+c:\users\dell\documents\visual studio 2013\Projects\perimeterSquare\perimeterSquare\obj\Debug\perimeterSquare.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2013\Projects\perimeterSquare\perimeterSquare\obj\Debug\perimeterSquare.Form1.resources
+c:\users\dell\documents\visual studio 2013\Projects\perimeterSquare\perimeterSquare\obj\Debug\perimeterSquare.Properties.Resources.resources
+c:\users\dell\documents\visual studio 2013\Projects\perimeterSquare\perimeterSquare\obj\Debug\perimeterSquare.csproj.GenerateResource.Cache
+c:\users\dell\documents\visual studio 2013\Projects\perimeterSquare\perimeterSquare\obj\Debug\perimeterSquare.exe
+c:\users\dell\documents\visual studio 2013\Projects\perimeterSquare\perimeterSquare\obj\Debug\perimeterSquare.pdb

@@ -1,0 +1,9 @@
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\squareArea\squareArea\bin\Debug\squareArea.exe.config
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\squareArea\squareArea\obj\Debug\squareArea.exe
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\squareArea\squareArea\obj\Debug\squareArea.pdb
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\squareArea\squareArea\bin\Debug\squareArea.exe
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\squareArea\squareArea\bin\Debug\squareArea.pdb
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\squareArea\squareArea\obj\Debug\squareAreaAndCube.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\squareArea\squareArea\obj\Debug\squareArea.numberTxt.resources
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\squareArea\squareArea\obj\Debug\squareArea.Properties.Resources.resources
+C:\Users\Dell\Documents\Visual Studio 2013\Projects\squareArea\squareArea\obj\Debug\squareAreaAndCube.csproj.GenerateResource.Cache
