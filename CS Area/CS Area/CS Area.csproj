@@ -44,6 +44,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BonusAndPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BonusAndPayment.Designer.cs">
+      <DependentUpon>BonusAndPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarRentalChargesInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarRentalChargesInformation.Designer.cs">
+      <DependentUpon>CarRentalChargesInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoWhile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoWhile.Designer.cs">
+      <DependentUpon>DoWhile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EvenInteger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EvenInteger.Designer.cs">
+      <DependentUpon>EvenInteger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fibonacci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fibonacci.Designer.cs">
+      <DependentUpon>Fibonacci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForLoop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForLoop.Designer.cs">
+      <DependentUpon>ForLoop.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,8 +92,74 @@
     <Compile Include="FindGrade.Designer.cs">
       <DependentUpon>FindGrade.cs</DependentUpon>
     </Compile>
+    <Compile Include="LastDayOfMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LastDayOfMonth.Designer.cs">
+      <DependentUpon>LastDayOfMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaxAndMinNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaxAndMinNumber.Designer.cs">
+      <DependentUpon>MaxAndMinNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OddNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OddNumber.Designer.cs">
+      <DependentUpon>OddNumber.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StartWith.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartWith.Designer.cs">
+      <DependentUpon>StartWith.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StringCompare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StringCompare.Designer.cs">
+      <DependentUpon>StringCompare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="string_class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="string_class.Designer.cs">
+      <DependentUpon>string_class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubString.Designer.cs">
+      <DependentUpon>SubString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TotalAmount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TotalAmount.Designer.cs">
+      <DependentUpon>TotalAmount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TotalPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TotalPayment.Designer.cs">
+      <DependentUpon>TotalPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trim.Designer.cs">
+      <DependentUpon>Trim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpperAndLower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpperAndLower.Designer.cs">
+      <DependentUpon>UpperAndLower.cs</DependentUpon>
+    </Compile>
     <Compile Include="Using ComboBox and ListBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,11 +172,50 @@
     <Compile Include="Using Radio Button.Designer.cs">
       <DependentUpon>Using Radio Button.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vowel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vowel.Designer.cs">
+      <DependentUpon>Vowel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WhileLoop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WhileLoop.Designer.cs">
+      <DependentUpon>WhileLoop.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BonusAndPayment.resx">
+      <DependentUpon>BonusAndPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarRentalChargesInformation.resx">
+      <DependentUpon>CarRentalChargesInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoWhile.resx">
+      <DependentUpon>DoWhile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EvenInteger.resx">
+      <DependentUpon>EvenInteger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fibonacci.resx">
+      <DependentUpon>Fibonacci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForLoop.resx">
+      <DependentUpon>ForLoop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FindGrade.resx">
       <DependentUpon>FindGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LastDayOfMonth.resx">
+      <DependentUpon>LastDayOfMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaxAndMinNumber.resx">
+      <DependentUpon>MaxAndMinNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OddNumber.resx">
+      <DependentUpon>OddNumber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -85,11 +226,41 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="StartWith.resx">
+      <DependentUpon>StartWith.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringCompare.resx">
+      <DependentUpon>StringCompare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="string_class.resx">
+      <DependentUpon>string_class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubString.resx">
+      <DependentUpon>SubString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TotalAmount.resx">
+      <DependentUpon>TotalAmount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TotalPayment.resx">
+      <DependentUpon>TotalPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trim.resx">
+      <DependentUpon>Trim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpperAndLower.resx">
+      <DependentUpon>UpperAndLower.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Using ComboBox and ListBox.resx">
       <DependentUpon>Using ComboBox and ListBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Using Radio Button.resx">
       <DependentUpon>Using Radio Button.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vowel.resx">
+      <DependentUpon>Vowel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WhileLoop.resx">
+      <DependentUpon>WhileLoop.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

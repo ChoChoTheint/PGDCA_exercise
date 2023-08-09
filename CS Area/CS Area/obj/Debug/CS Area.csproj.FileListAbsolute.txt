@@ -19,3 +19,22 @@ C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.Properties.Resources.resources
 C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS Area.csproj.GenerateResource.Cache
 C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.Using_Radio_Button.resources
 C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.Using_ComboBox_and_ListBox.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.CarRentalChargesInformation.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.MaxAndMinNumber.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.LastDayOfMonth.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.ForLoop.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.DoWhile.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.WhileLoop.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.EvenInteger.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.OddNumber.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.BonusAndPayment.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.TotalAmount.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.Fibonacci.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.TotalPayment.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.string_class.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.SubString.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.StringCompare.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.UpperAndLower.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.Trim.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.StartWith.resources
+C:\PDDCA C#\CS Area\CS Area\obj\Debug\CS_Area.Vowel.resources

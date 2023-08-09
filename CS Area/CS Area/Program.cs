@@ -16,7 +16,7 @@ namespace CS_Area
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Using_ComboBox_and_ListBox());
+            Application.Run(new UpperAndLower());
         }
     }
 }

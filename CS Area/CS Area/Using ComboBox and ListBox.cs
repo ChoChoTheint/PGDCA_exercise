@@ -19,8 +19,32 @@ namespace CS_Area
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            stSubject.Items.Clear();
+            listSubject.Items.Clear();
+            if (cboSubject.Text == "Semester I")
+            {
+                listSubject.Items.Add("Computer Concept");
+                listSubject.Items.Add("Simple Program Design");
+                listSubject.Items.Add("Information System");
+                listSubject.Items.Add("Web Technology");
+            }
+            else
+            {
+                listSubject.Items.Add("Networking");
+                listSubject.Items.Add("C++");
+                listSubject.Items.Add("Database Management System");
+                listSubject.Items.Add("System Analysis and Design");
+            }
 
+        }
+
+        private void removeBtn_Click(object sender, EventArgs e)
+        {
+            listSubject.Items.Clear();
+        }
+
+        private void clsBtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

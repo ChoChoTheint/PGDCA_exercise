@@ -28,27 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.stSubject = new System.Windows.Forms.ComboBox();
+            this.cboSubject = new System.Windows.Forms.ComboBox();
+            this.listSubject = new System.Windows.Forms.ListBox();
+            this.removeBtn = new System.Windows.Forms.Button();
+            this.clsBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // stSubject
+            // cboSubject
             // 
-            this.stSubject.FormattingEnabled = true;
-            this.stSubject.Items.AddRange(new object[] {
+            this.cboSubject.FormattingEnabled = true;
+            this.cboSubject.Items.AddRange(new object[] {
             "Semester I",
             "Semester II"});
-            this.stSubject.Location = new System.Drawing.Point(46, 34);
-            this.stSubject.Name = "stSubject";
-            this.stSubject.Size = new System.Drawing.Size(121, 24);
-            this.stSubject.TabIndex = 0;
-            this.stSubject.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.cboSubject.Location = new System.Drawing.Point(46, 34);
+            this.cboSubject.Name = "cboSubject";
+            this.cboSubject.Size = new System.Drawing.Size(121, 24);
+            this.cboSubject.TabIndex = 0;
+            this.cboSubject.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // listSubject
+            // 
+            this.listSubject.FormattingEnabled = true;
+            this.listSubject.ItemHeight = 16;
+            this.listSubject.Location = new System.Drawing.Point(257, 34);
+            this.listSubject.Name = "listSubject";
+            this.listSubject.Size = new System.Drawing.Size(200, 84);
+            this.listSubject.TabIndex = 1;
+            // 
+            // removeBtn
+            // 
+            this.removeBtn.Location = new System.Drawing.Point(257, 145);
+            this.removeBtn.Name = "removeBtn";
+            this.removeBtn.Size = new System.Drawing.Size(75, 23);
+            this.removeBtn.TabIndex = 2;
+            this.removeBtn.Text = "Remove";
+            this.removeBtn.UseVisualStyleBackColor = true;
+            this.removeBtn.Click += new System.EventHandler(this.removeBtn_Click);
+            // 
+            // clsBtn
+            // 
+            this.clsBtn.Location = new System.Drawing.Point(362, 145);
+            this.clsBtn.Name = "clsBtn";
+            this.clsBtn.Size = new System.Drawing.Size(66, 23);
+            this.clsBtn.TabIndex = 3;
+            this.clsBtn.Text = "Close";
+            this.clsBtn.UseVisualStyleBackColor = true;
+            this.clsBtn.Click += new System.EventHandler(this.clsBtn_Click);
             // 
             // Using_ComboBox_and_ListBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(611, 253);
-            this.Controls.Add(this.stSubject);
+            this.Controls.Add(this.clsBtn);
+            this.Controls.Add(this.removeBtn);
+            this.Controls.Add(this.listSubject);
+            this.Controls.Add(this.cboSubject);
             this.Name = "Using_ComboBox_and_ListBox";
             this.Text = "Using_ComboBox_and_ListBox";
             this.ResumeLayout(false);
@@ -57,6 +92,9 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox stSubject;
+        private System.Windows.Forms.ComboBox cboSubject;
+        private System.Windows.Forms.ListBox listSubject;
+        private System.Windows.Forms.Button removeBtn;
+        private System.Windows.Forms.Button clsBtn;
     }
 }
