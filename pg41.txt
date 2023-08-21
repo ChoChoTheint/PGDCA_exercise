@@ -1,0 +1,104 @@
+public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+        SqlConnection consql;
+        string str;
+        DataSet Dset;
+
+        void AutoID()
+        {
+            string CName;
+            int CID;
+            SqlDataAdapter ad = new SqlDataAdapter("Select CustID from tblCustomer ORDER BY CustID", consql);
+            DataSet ds = new DataSet();
+            ad.Fill(ds);
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                CName = ds.Tables[0].Rows[ds.Tables[0].Rows.Count - 1][0].ToString();
+                CID = int.Parse(CName.Substring(2, (CName.Length - 2)));
+                txtCustID.Text = " C_" + ((CID + 1)).ToString("0000000");
+            }
+            else
+            {
+                txtCustID.Text = "C_0000001";
+            }
+        }
+        void ClearText()
+        {
+            txtCustID.Text = "";
+            txtCName.Text = "";
+            txtNRC.Text = "";
+            txtAddress.Text = "";
+            txtPhone.Text = "";
+        }
+        private void FillData()
+        {
+            string query = "select * from tblCustomer";
+            SqlDataAdapter adapter = new SqlDataAdapter(query, consql);
+            Dset = new DataSet();
+            adapter.Fill(Dset);
+            dgCustomer.DataSource = Dset.Tables[0];
+
+            dgCustomer.Columns[0].HeaderText = "Customer ID";
+            dgCustomer.Columns[1].HeaderText = "Customer Name";
+            dgCustomer.Columns[2].HeaderText = "NRC";
+            dgCustomer.Columns[3].HeaderText = "Address";
+            dgCustomer.Columns[4].HeaderText = "Phone";
+
+            dgCustomer.Columns[0].Width = 120;
+            dgCustomer.Columns[1].Width = 150;
+            dgCustomer.Columns[2].Width = 120;
+            dgCustomer.Columns[3].Width = 200;
+            dgCustomer.Columns[4].Width = 120;
+	}
+	private void Form1_Load(object sender,EventArgs e)
+        {
+            str = "Data Source=WCG;Initial Catalog=DBMyNewProject;Persist Security Info=True;User ID=sa;Password=p@ssw0rd";
+            consql = new SqlConnection(str);
+            consql.Open();
+            FillData();
+        }
+        private void btnSave_Click(object sender,EventArgs e)
+        {
+            string strInert = "Insert into tblCustomer Values (""+txtCustID.Text+","+txtCName.Text+","+txtNRC.Text+","+txtAddress.Text+","+txtPhone.Text+",");
+            SqlCommand cmd = new SqlCommand(strIner,consql);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Finish save customer information","Save Information",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            FillData();
+        }
+        private void btnNEw_Click(object sender,EventArgs e)
+        {
+            ClearText();
+            AutoID();
+        }
+private void dgCustomer_Click(object sender,EventArgs e){
+            int i;
+            i = dgCustomer.CurrentRow.Index;
+            txtCustID.Text = Dset.Tables[0].Rows[i][0].ToString();
+            txtCName.Text = Dset.Tables[0].Rows[i][1].ToString();
+            txtNRC.Text = Dset.Tables[0].Rows[i][2].ToString();
+            txtAddress.Text = Dset.Tables[0].Rows[i][3].ToString();
+            txtPhone.Text = Dset.Tables[0].Rows[i][4].ToString();
+        }
+        private void btnUpdate_Click(){
+            string str = "update tblCustomer set CusName='"+txtCustName.Text+"','"+txtCName.Text+"','"+txtNRC.Text+"','"+txtAddress.Text+"','"+txtPhone.Text+"' where CustID='"txtCustID.Text+"'";
+            sqlCommand mycmd = new sqlCommand(str,consql);
+            mycmd.ExecuteNonQuery();
+            MessageBox.Show("Finish update customer information ","Update Information",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            FillData();
+        }
+        //btn close
+        this.Close();
+
+        //delete
+
+        string str = "Delete from tblCustomer Where CustID='"+txtCustID.Text+"'";
+        sqlCommand mycmd = new sqlCommand(str,consql);
+         mycmd.ExecuteNonQuery();
+        MessageBox.Show("Finish delete customer information ","Delete Information",MessageBoxButtons.OK,MessageBoxIcon.Information);
+        FillData();
+        ClearText();
+    }
